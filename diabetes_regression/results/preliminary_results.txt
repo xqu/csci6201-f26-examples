@@ -1,0 +1,6 @@
+Diabetes Linear Regression baseline
+Training samples: 353
+Test samples: 89
+Mean absolute error (MAE): 42.79
+R-squared: 0.453
+Interpretation: preliminary test-set evaluation; not for clinical use.

@@ -1,0 +1,9 @@
+Iris Decision Tree baseline
+Training samples: 120
+Test samples: 30
+Accuracy: 0.933
+Confusion matrix (setosa, versicolor, virginica):
+[[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
+Interpretation: preliminary single train/test split; performance can vary.

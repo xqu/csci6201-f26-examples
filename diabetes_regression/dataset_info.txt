@@ -1,0 +1,10 @@
+Dataset: Diabetes
+Provider: scikit-learn (Diabetes dataset, originally described by Efron et al.)
+URL: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html
+Description: 442 observations; ten baseline numeric features; a quantitative measure of disease progression one year after baseline.
+Task: Regression.
+Version: Unmodified data loaded with default scikit-learn normalization/scaling behavior.
+Loading: from sklearn.datasets import load_diabetes; diabetes = load_diabetes()
+Important: Scikit-learn's features are preprocessed/scaled; BMI is not displayed in raw BMI units.
+Educational example only; not a clinical prediction tool.
+No raw dataset download is included in the repository.

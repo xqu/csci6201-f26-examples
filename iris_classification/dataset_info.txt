@@ -1,0 +1,8 @@
+Dataset: Iris
+Provider: scikit-learn (original Iris dataset attributed to R. A. Fisher)
+URL: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_iris.html
+Description: 150 iris flowers; four numeric measurements; three species labels.
+Task: Multiclass classification.
+Version: Unmodified dataset bundled with scikit-learn.
+Loading: from sklearn.datasets import load_iris; iris = load_iris()
+No raw dataset download is included in the repository.

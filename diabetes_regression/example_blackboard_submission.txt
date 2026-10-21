@@ -1,0 +1,11 @@
+CSCI 6201 Lab 2 — EXAMPLE BLACKBOARD SUBMISSION (TEMPLATE ONLY)
+
+Team members: [Student A], [Student B], [Student C if applicable]
+Dataset: Diabetes
+Repository URL: [LINK TO YOUR TEAM'S OWN REPOSITORY]
+Research questions: See project README (write your team's own questions).
+Request for instructor feedback: [Your specific question]
+
+Blackboard submission should include: repo URL, this short file, and dataset_info.txt.
+Only one team member should submit. Keep main code and figures on GitHub.
+This instructor template is NOT a student submission.

@@ -1,0 +1,25 @@
+CSCI 6201 Week 9 — Instructor example project updates
+======================================================
+These files ADD Week 9 work to the existing GitHub repository.
+DO NOT delete or replace the Week 8 01_load_iris.py / 01_load_diabetes.py files.
+The two README.md files update the Week 8 folder-level documentation.
+
+1. Copy the contents of this ZIP into the LOCAL csci6201-f26-examples folder.
+2. In VS Code Terminal, open the repository ROOT directory.
+3. Install requirements:
+   python -m pip install -r requirements.txt
+4. Run each script FROM THE ROOT, in this order:
+   python iris_classification/02_explore_iris.py
+   python iris_classification/03_visualize_iris.py
+   python iris_classification/04_classify_iris.py
+   python iris_classification/05_test_iris.py
+   python diabetes_regression/02_explore_diabetes.py
+   python diabetes_regression/03_visualize_diabetes.py
+   python diabetes_regression/04_regress_diabetes.py
+   python diabetes_regression/05_test_diabetes.py
+5. Review each dataset folder's figures/ and results/.
+6. Open GitHub Desktop: Changes -> review files -> Commit to main -> Push origin.
+7. Verify the online repository reflects the Week 9 work.
+
+These are demonstration materials, not student submissions. Blackboard
+submission examples include placeholders rather than real student details.
