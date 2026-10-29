@@ -17,6 +17,8 @@ python iris_classification/02_explore_iris.py
 python iris_classification/03_visualize_iris.py
 python iris_classification/04_classify_iris.py
 python iris_classification/05_test_iris.py
+python iris_classification/06_search_sort_iris.py
+python iris_classification/07_review_iris.py
 ```
 
 ## Lab 2 progress
@@ -25,6 +27,11 @@ python iris_classification/05_test_iris.py
 - Created `figures/02_petal_length_vs_width.png`, which shows how the three species occupy different regions in petal measurement space, with some overlap between Versicolor and Virginica.
 - Trained a Decision Tree using a reproducible stratified 80/20 split; see `results/preliminary_results.txt` for the actual test-set accuracy and confusion matrix.
 - Wrote simple helper functions and used `assert` and `unittest` to check them.
+
+## Week 10 progress: searching, sorting, and reviewing predictions
+- `06_search_sort_iris.py` searches for petal lengths above a threshold and uses `sorted()`, `min()`, and `max()` to explore the measurements. Change the threshold to practice filtering.
+- `07_review_iris.py` reuses the Week 9 Decision Tree settings and displays five actual versus predicted flower species, plus test accuracy. It does not overwrite previous results.
+- **Final project connection:** searching and sorting help inspect data; checking predictions makes the evaluation easier to explain. After Quiz 2, explore misclassified flowers and add an error-analysis plot.
 
 ## Next Steps for Final Project
 - **Working:** data loading, plots, baseline model, and basic tests.

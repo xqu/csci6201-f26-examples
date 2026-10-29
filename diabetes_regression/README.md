@@ -17,6 +17,8 @@ python diabetes_regression/02_explore_diabetes.py
 python diabetes_regression/03_visualize_diabetes.py
 python diabetes_regression/04_regress_diabetes.py
 python diabetes_regression/05_test_diabetes.py
+python diabetes_regression/06_search_sort_diabetes.py
+python diabetes_regression/07_review_diabetes.py
 ```
 
 ## Lab 2 progress
@@ -25,6 +27,11 @@ python diabetes_regression/05_test_diabetes.py
 - Created `figures/02_bmi_vs_target.png`, suggesting an association between the **standardized** BMI feature and the target; this plot does not establish causation.
 - Trained a Linear Regression model with an 80/20 train/test split; see `results/preliminary_results.txt` for test MAE and R².
 - Used simple functions, assertions, and unit tests.
+
+## Week 10 progress: searching, sorting, and reviewing predictions
+- `06_search_sort_diabetes.py` finds target values above a threshold and uses `sorted()`, `min()`, and `max()` to inspect the dataset. Change the threshold to practice filtering.
+- `07_review_diabetes.py` reuses the Week 9 Linear Regression settings and shows five actual versus predicted targets, their absolute errors, and test MAE. It does not overwrite previous results.
+- **Final project connection:** searching and sorting help explore target values; the error examples make model evaluation easier to explain. After Quiz 2, examine residuals and create an error-analysis plot.
 
 ## Next Steps for Final Project
 - **Working:** exploration, two plots, regression baseline, and tests.
