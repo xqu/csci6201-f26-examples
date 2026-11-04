@@ -19,6 +19,8 @@ python diabetes_regression/04_regress_diabetes.py
 python diabetes_regression/05_test_diabetes.py
 python diabetes_regression/06_search_sort_diabetes.py
 python diabetes_regression/07_review_diabetes.py
+python diabetes_regression/08_evaluate_diabetes.py
+python diabetes_regression/09_report_diabetes.py
 ```
 
 ## Lab 2 progress
@@ -32,6 +34,13 @@ python diabetes_regression/07_review_diabetes.py
 - `06_search_sort_diabetes.py` finds target values above a threshold and uses `sorted()`, `min()`, and `max()` to inspect the dataset. Change the threshold to practice filtering.
 - `07_review_diabetes.py` reuses the Week 9 Linear Regression settings and shows five actual versus predicted targets, their absolute errors, and test MAE. It does not overwrite previous results.
 - **Final project connection:** searching and sorting help explore target values; the error examples make model evaluation easier to explain. After Quiz 2, examine residuals and create an error-analysis plot.
+
+## Week 11 progress: residuals, CSV files, and project reports
+- `08_evaluate_diabetes.py`: reruns the Week 9 Linear Regression settings, saves held-out predictions and errors to `results/08_diabetes_predictions.csv`, and creates `figures/08_diabetes_residuals.png`.
+- `09_report_diabetes.py`: **reads that CSV** and builds `results/09_diabetes_project_report.txt` with MAE, R-squared, largest error, limitations, and next steps.
+- **Run 08 before 09.** Open the CSV, PNG, and TXT outputs; find the test row with the largest absolute error.
+- **Self-study exercise:** trace how `abs(actual - predicted)` is calculated and averaged.
+- **Next steps:** investigate large residuals or compare a simple mean-prediction baseline. Not for clinical use.
 
 ## Next Steps for Final Project
 - **Working:** exploration, two plots, regression baseline, and tests.

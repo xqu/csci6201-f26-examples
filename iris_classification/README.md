@@ -19,6 +19,8 @@ python iris_classification/04_classify_iris.py
 python iris_classification/05_test_iris.py
 python iris_classification/06_search_sort_iris.py
 python iris_classification/07_review_iris.py
+python iris_classification/08_evaluate_iris.py
+python iris_classification/09_report_iris.py
 ```
 
 ## Lab 2 progress
@@ -32,6 +34,13 @@ python iris_classification/07_review_iris.py
 - `06_search_sort_iris.py` searches for petal lengths above a threshold and uses `sorted()`, `min()`, and `max()` to explore the measurements. Change the threshold to practice filtering.
 - `07_review_iris.py` reuses the Week 9 Decision Tree settings and displays five actual versus predicted flower species, plus test accuracy. It does not overwrite previous results.
 - **Final project connection:** searching and sorting help inspect data; checking predictions makes the evaluation easier to explain. After Quiz 2, explore misclassified flowers and add an error-analysis plot.
+
+## Week 11 progress: evaluation, CSV files, and project reports
+- `08_evaluate_iris.py`: reruns the Week 9 Decision Tree settings, saves each held-out prediction to `results/08_iris_predictions.csv`, and creates `figures/08_iris_correct_vs_incorrect.png`.
+- `09_report_iris.py`: **reads that CSV** and builds `results/09_iris_project_report.txt` with accuracy, species-level counts, incorrect predictions, limitations, and next steps.
+- **Run 08 before 09.** Open the CSV, PNG, and TXT outputs and compare them with your printed terminal results.
+- **Class exercise:** trace the `correct` counter and explain why test accuracy is not a guarantee for future predictions.
+- **Next steps:** compare a second classifier or different train/test split; describe any changed results.
 
 ## Next Steps for Final Project
 - **Working:** data loading, plots, baseline model, and basic tests.

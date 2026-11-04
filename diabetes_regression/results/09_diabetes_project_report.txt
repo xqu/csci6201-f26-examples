@@ -1,0 +1,13 @@
+Week 11 Diabetes Regression: Progress Report
+Research question: Can baseline measurements predict the dataset target?
+Dataset: scikit-learn Diabetes, 442 examples, 10 preprocessed features.
+Model: Linear Regression; 80/20 split; random_state=42.
+Held-out test examples: 89
+Mean absolute error (MAE): 42.79
+R-squared: 0.453
+Largest absolute error: 154.49 (row 56)
+Evidence: results/08_diabetes_predictions.csv and figures/08_diabetes_residuals.png
+Interpretation: residuals show where the model over- and under-predicts.
+Limitations: one test split; prediction errors can be substantial.
+Next steps: inspect high-error rows and compare a simple baseline.
+For education only; not for diagnosis or clinical decisions.

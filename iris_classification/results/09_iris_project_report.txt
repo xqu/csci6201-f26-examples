@@ -1,0 +1,16 @@
+Week 11 Iris Classification: Progress Report
+Research question: Can flower measurements predict Iris species?
+Dataset: scikit-learn Iris, 150 examples, 4 features, 3 classes.
+Model: Decision Tree; 80/20 stratified split; random_state=42.
+Held-out test examples: 30
+Test accuracy: 0.933 (28/30 correct)
+Results by actual species:
+  setosa: 10/10 correct
+  versicolor: 9/10 correct
+  virginica: 9/10 correct
+Misclassified examples:
+  row 134: virginica -> versicolor
+  row 77: versicolor -> virginica
+Evidence: results/08_iris_predictions.csv and figures/08_iris_correct_vs_incorrect.png
+Limitations: one split; accuracy may change with other samples or models.
+Next steps: compare another split or classifier; explain confusing species.
